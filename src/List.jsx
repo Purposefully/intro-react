@@ -34,7 +34,7 @@ class List extends React.Component {
             <input
               className="form-control input-sm"
               type="text"
-              placeholder={this.props.placeholder}
+              placeholder={this.props.title}
               value={this.state.value}
               onChange={this.handleChange}
             />
